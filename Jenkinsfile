@@ -8,12 +8,12 @@ pipeline {
     }
 
     stages {
-        stage('git clone'){
-            steps {
-                git branch: 'dev', url: 'https://github.com/stackexpress-jawed/demo01.git'
-            }
+//         stage('git clone'){
+//             steps {
+//                 git branch: 'dev', url: 'https://github.com/stackexpress-jawed/demo01.git'
+//             }
             
-        }
+//         }
         
         stage('docker run') {
             steps {
